@@ -33,17 +33,22 @@ h1 {
 
 aside {
     width: 20em;
-    margin: 1rem;
-    border: 1px solid rgb (0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    color: #000;
+    top: 30px;
+    left: 125px;
 }
 
 aside img {
     width: 200px;
     height: auto;
+
 }
 
 main img {
@@ -52,6 +57,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -65,4 +71,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Seletores de Case*/
+
+.caixa {
+    border: 1px solid rgb (0 0 0 / 0.2);
+    margin: 1em;
+    padding: 1em;
+    background-color: #eee;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
