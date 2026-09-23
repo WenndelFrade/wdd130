@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: var(--font-body);
+    font-family: var(--fonte-body);
     color: var(--cor-destaque1);
 }
 
@@ -28,7 +28,7 @@ nav {
 
 h1,
 h2 {
-    font-family: var(--font-titulo);
+    font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
 }
@@ -65,31 +65,8 @@ h1 {
     color: #fff;
 }
 
-.hero article {
+.hero article img {
     float: right;
     width: 125px;
-    position: absolute;
-    bottom: 30px;
-    left: 5%;
-    width: 80%;
-    background-color: #c2b280;
-    color: #333333;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
 
-.hero article p {
-    flex: 1;
-    font-size: 0.95rem;
-    line-height: 1.4;
-    margin: 0;
-}
-
-.hero article img {
-    width: 100px;
-    height: 75px;
-    object-fit: cover;
-    border-radius: 4px;
 }
