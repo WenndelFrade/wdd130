@@ -1,3 +1,5 @@
+:root {}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,14 +32,13 @@ h2 {
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    float: right;
-    padding-bottom: 20px;
 }
 
 h1 {
@@ -51,9 +52,29 @@ h1 {
     color: #fff;
 }
 
-.hero article img {
-    float: rigth;
-    width: 150px;
-    margin-left: 15px;
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    width: 80%;
+    background-color: #c2b280;
+    color: #333333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
+.hero article p {
+    flex: 1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.hero article img {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
 }
