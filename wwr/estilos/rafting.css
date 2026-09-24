@@ -98,3 +98,9 @@ article {
 footer {
     background-color: var(--cor-destaque2);
 }
+
+footer a,
+.socialmedia a,
+.redes-sociais a {
+    text-decoration: none;
+}
