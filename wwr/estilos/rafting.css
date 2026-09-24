@@ -2,7 +2,7 @@
     --cor-primaria: #055a05;
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque2: #e9e2d1;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -20,8 +20,7 @@ body {
 
 header,
 main,
-footer,
-nav {
+footer {
     width: 840px;
     margin: 0 auto;
 }
@@ -33,6 +32,7 @@ h2 {
     text-align: center;
 }
 
+nav,
 p,
 section,
 article {
@@ -46,6 +46,8 @@ article {
 
 .hero {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .hero img {
@@ -54,7 +56,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -65,8 +67,29 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    padding: 16px;
+    background-color: var(--cor-secundaria);
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.hero article p {
+    position: static;
+    margin: 0;
+    padding: 0;
+    color: var(--cor-destaque1);
+}
+
 .hero article img {
     float: right;
     width: 125px;
-
+    height: auto;
+    margin-left: 15px;
+    padding: 0;
 }
