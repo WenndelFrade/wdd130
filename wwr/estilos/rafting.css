@@ -23,6 +23,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+
 }
 
 h1,
@@ -92,4 +93,8 @@ article {
     height: auto;
     margin-left: 15px;
     padding: 0;
+}
+
+footer {
+    background-color: var(--cor-destaque2);
 }
