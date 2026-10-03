@@ -100,9 +100,7 @@ article {
     padding: 0;
 }
 
-footer {
-    background-color: #1B365D;
-}
+
 
 footer a,
 .socialmedia a,
@@ -127,6 +125,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 10px;
+    color: #fff;
 }
 
 header nav {
@@ -216,7 +215,7 @@ footer {
   grid-template-columns: 1fr auto; 
   align-items: center;        
   padding: 20px 30px;       
-  border: 1px solid var(--cor-destaque1);       
+  border: 1px solid var(--cor-destaque2);       
   box-sizing: border-box;
 }
 
