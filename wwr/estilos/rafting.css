@@ -217,6 +217,7 @@ footer {
   padding: 20px 30px;       
   border: 1px solid var(--cor-destaque2);       
   box-sizing: border-box;
+  color: #fff;
 }
 
 footer p {
