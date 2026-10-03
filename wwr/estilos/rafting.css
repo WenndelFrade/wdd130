@@ -26,6 +26,11 @@ footer {
 
 }
 
+header,
+footer {
+    background-color: #1B365D;
+}
+
 h1,
 h2 {
     font-family: var(--fonte-titulo);
@@ -96,11 +101,129 @@ article {
 }
 
 footer {
-    background-color: var(--cor-destaque2);
+    background-color: #1B365D;
 }
 
 footer a,
-.socialmedia a,
+.social-media a,
 nav a {
     text-decoration: none;
+
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;           
+    align-items: center;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;  
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0;
+    padding: 0;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 5 px;
+    padding: 10px;
+}
+
+header nav a {
+    color: #ffffff;                  
+    font-weight: bold; 
+}
+header nav a:hover {
+    color: #dfd4b9;
+}
+
+.historia {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.historia h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--cor-primaria);
+}
+
+.historia .historia-projeto {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.historia .historia-projeto img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+}
+
+.Aventura {
+  text-align: center;
+  padding: 20px;
+}
+
+.Aventura .descidas {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;                      
+  align-items: start;
+}
+.Aventura .descidas figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.Aventura .descidas img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--cor-destaque1);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  align-items: center;
+  color:#1B365D;          
+  padding: 20px 30px;       
+  border: 1px solid var(--cor-destaque1);       
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
 }
