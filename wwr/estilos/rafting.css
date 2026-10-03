@@ -105,7 +105,7 @@ footer {
 }
 
 footer a,
-.social-media a,
+.socialmedia a,
 nav a {
     text-decoration: none;
 
@@ -117,7 +117,7 @@ nav a {
     align-items: center;
 }
 
-.social-media img {
+.socialmedia img {
     width: 32px;
     height: 32px;
     object-fit: contain;  
@@ -142,7 +142,7 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin: 5 px;
+    margin: 5px;
     padding: 10px;
 }
 
@@ -214,8 +214,7 @@ header nav a:hover {
 footer {
   display: grid;
   grid-template-columns: 1fr auto; 
-  align-items: center;
-  color:#1B365D;          
+  align-items: center;        
   padding: 20px 30px;       
   border: 1px solid var(--cor-destaque1);       
   box-sizing: border-box;
