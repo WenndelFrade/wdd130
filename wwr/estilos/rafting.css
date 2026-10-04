@@ -320,3 +320,66 @@ footer p {
     box-sizing: border-box; 
     resize: vertical; 
 }
+
+.rotulo-lateral {
+    align-self: start;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.proposito-mensagem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.proposito-mensagem label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.equipe {
+    text-align: center;
+    padding: 20px;
+}
+
+.equipe h1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.perfil-funcionarios {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.perfil-funcionarios figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+
+.perfil-funcionarios img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.perfil-funcionarios figcaption {
+    font-size: 14px;
+    text-align: center;
+}
