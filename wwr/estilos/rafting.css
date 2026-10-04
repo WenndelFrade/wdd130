@@ -321,12 +321,6 @@ footer p {
     resize: vertical; 
 }
 
-.rotulo-lateral {
-    align-self: start;
-    font-size: 14px;
-    line-height: 1.2;
-}
-
 .proposito-mensagem {
     display: flex;
     flex-direction: column;
@@ -346,7 +340,7 @@ footer p {
     padding: 20px;
 }
 
-.equipe h1 {
+.equipe h2 {
     margin-bottom: 20px;
     padding-top: 15px;
 }
@@ -382,4 +376,23 @@ footer p {
 .perfil-funcionarios figcaption {
     font-size: 14px;
     text-align: center;
+}
+
+footer a,
+.redes-sociais a,
+nav a {
+    text-decoration: none;
+
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;           
+    align-items: center;
+}
+
+.redes-sociais img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;  
 }
